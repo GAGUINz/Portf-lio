@@ -350,7 +350,7 @@ export default function Home() {
                 <a href="#projetos" className="px-6 py-3 bg-white text-zinc-950 rounded-full font-semibold hover:bg-zinc-200 hover:scale-105 transition-all duration-300 w-full sm:w-auto text-center shadow-[0_0_20px_rgba(255,255,255,0.3)] hover:shadow-[0_0_30px_rgba(255,255,255,0.5)]">
                   {t('heroBtn1')}
                 </a>
-                <a href="/cv.pdf" download className="px-6 py-3 bg-violet-600 hover:bg-violet-500 text-white rounded-full font-semibold flex items-center justify-center gap-2 hover:scale-105 transition-all duration-300 w-full sm:w-auto shadow-[0_0_20px_rgba(139,92,246,0.4)]">
+                <a href="/Luciano_Friedrich_Software_Engineer.pdf" download="Luciano_Friedrich_Software_Engineer.pdf" className="px-6 py-3 bg-violet-600 hover:bg-violet-500 text-white rounded-full font-semibold flex items-center justify-center gap-2 hover:scale-105 transition-all duration-300 w-full sm:w-auto shadow-[0_0_20px_rgba(139,92,246,0.4)]">
                   <Download size={18} /> {t('heroBtn2')}
                 </a>
                 <a href="#contato" className="px-6 py-3 border border-zinc-700 rounded-full text-zinc-300 hover:border-violet-500 hover:text-white hover:bg-violet-500/10 transition-all duration-300 w-full sm:w-auto text-center">
