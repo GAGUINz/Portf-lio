@@ -13,7 +13,7 @@ export async function POST(req: Request) {
       );
     }
 
-    const resend = new Resend(process.env.RESEND_API_KEY);
+    const resend = new Resend(process.env.RESEND_API_KEY || 're_dummy_fallback_to_prevent_build_crash');
 
     const { data, error } = await resend.emails.send({
       from: 'onboarding@resend.dev', // Default sender for unverified domains
